@@ -3,25 +3,26 @@ import java.util.List;
 import java.io.FileFilter;
 
 public class lc {
-    //ArrayList<Integer> list = new ArrayList<Integer>();
-
-    Runnable runnable = () -> new Runnable() {
-        @Override
-        public void run() {
-            System.out.println("this is runnable");
-        }
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    Runnable runnable = () -> {
+        System.out.println("this is a lambda");
     };
-
-    public void fun1()
+    public void fun2()
     {
         int a, b, c;
-        System.out.println("fun1");
+        System.out.println("fun2");
     }
-    int a = 1;
+    public void fun3()
+    {
+        int a, b, c;
+        System.out.println("fun3");
+    }
     public static void main(String[] args){
-        System.out.println("hahaha");
+        //FileFilter python = f -> f.getName().endsWith(".py");
+        System.out.println("this is lc02.java");
         System.out.println("hehehe");
-        FileFilter java = f -> f.getName().endsWith(".java");
-        System.out.println("this is lc01.java");
+        System.out.println("hahaha");
+        System.out.println("hahaha");
     }
+
 }
