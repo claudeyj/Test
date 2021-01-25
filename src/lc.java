@@ -4,9 +4,7 @@ import java.io.FileFilter;
 
 public class lc {
     ArrayList<Integer> list = new ArrayList<Integer>();
-    Runnable runnable = () -> {
-        System.out.println("this is a lambda");
-    };
+
     public void fun2()
     {
         int a, b, c;
